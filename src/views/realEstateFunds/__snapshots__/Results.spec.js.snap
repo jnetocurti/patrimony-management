@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/views/realEstateFunds/Results should render correctly 1`] = `
+<Styled(MuiBox)
+  mt={1}
+>
+  <WithStyles(ForwardRef(Card))>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      onSync={[Function]}
+    >
+      <Styled(MuiBox)
+        minWidth={1050}
+      >
+        <WithStyles(ForwardRef(Table))>
+          <WithStyles(ForwardRef(TableHead))>
+            <WithStyles(ForwardRef(TableRow))>
+              <WithStyles(ForwardRef(TableCell))>
+                Ticker
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Segmento
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Qtd
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Preço médio
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Valor total
+              </WithStyles(ForwardRef(TableCell))>
+            </WithStyles(ForwardRef(TableRow))>
+          </WithStyles(ForwardRef(TableHead))>
+          <WithStyles(ForwardRef(TableBody))>
+            <WithStyles(ForwardRef(TableRow))
+              key="HSML11"
+            >
+              <WithStyles(ForwardRef(TableCell))>
+                HSML11
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Shopping
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                35
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                98.34
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                3441.9
+              </WithStyles(ForwardRef(TableCell))>
+            </WithStyles(ForwardRef(TableRow))>
+            <WithStyles(ForwardRef(TableRow))
+              key="VILG11"
+            >
+              <WithStyles(ForwardRef(TableCell))>
+                VILG11
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Logística
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                89
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                102.67
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                9137.63
+              </WithStyles(ForwardRef(TableCell))>
+            </WithStyles(ForwardRef(TableRow))>
+          </WithStyles(ForwardRef(TableBody))>
+        </WithStyles(ForwardRef(Table))>
+      </Styled(MuiBox)>
+    </ScrollBar>
+  </WithStyles(ForwardRef(Card))>
+</Styled(MuiBox)>
+`;
+
+exports[`src/views/realEstateFunds/Results should render correctly with an empty list of funds 1`] = `
+<Styled(MuiBox)
+  mt={1}
+>
+  <WithStyles(ForwardRef(Card))>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      onSync={[Function]}
+    >
+      <Styled(MuiBox)
+        minWidth={1050}
+      >
+        <WithStyles(ForwardRef(Table))>
+          <WithStyles(ForwardRef(TableHead))>
+            <WithStyles(ForwardRef(TableRow))>
+              <WithStyles(ForwardRef(TableCell))>
+                Ticker
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Segmento
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Qtd
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Preço médio
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                Valor total
+              </WithStyles(ForwardRef(TableCell))>
+            </WithStyles(ForwardRef(TableRow))>
+          </WithStyles(ForwardRef(TableHead))>
+          <WithStyles(ForwardRef(TableBody)) />
+        </WithStyles(ForwardRef(Table))>
+      </Styled(MuiBox)>
+    </ScrollBar>
+  </WithStyles(ForwardRef(Card))>
+</Styled(MuiBox)>
+`;

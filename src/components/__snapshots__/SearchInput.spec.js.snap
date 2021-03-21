@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/SearchInput should render with SearchInputProgress input adornment 1`] = `
+<Styled(MuiBox)
+  maxWidth={500}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "startAdornment": <SearchInputProgress />,
+      }
+    }
+    fullWidth={true}
+    onChange={[Function]}
+    placeholder="Pesquisar"
+    variant="outlined"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/SearchInput should render with custom placeholder 1`] = `
+<Styled(MuiBox)
+  maxWidth={500}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "startAdornment": <SearchInputAdornment />,
+      }
+    }
+    fullWidth={true}
+    onChange={[Function]}
+    placeholder="Custom"
+    variant="outlined"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/SearchInput should render with default placeholder 1`] = `
+<Styled(MuiBox)
+  maxWidth={500}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "startAdornment": <SearchInputAdornment />,
+      }
+    }
+    fullWidth={true}
+    onChange={[Function]}
+    placeholder="Pesquisar"
+    variant="outlined"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/SearchInputAdornment should render correctly 1`] = `
+<WithStyles(ForwardRef(InputAdornment))
+  position="start"
+>
+  <WithStyles(ForwardRef(SvgIcon))
+    color="action"
+    fontSize="small"
+  >
+    <Search />
+  </WithStyles(ForwardRef(SvgIcon))>
+</WithStyles(ForwardRef(InputAdornment))>
+`;
+
+exports[`src/components/SearchInputProgress should render correctly 1`] = `
+<WithStyles(ForwardRef(CircularProgress))
+  className="makeStyles-progress-1"
+  size="1.25rem"
+/>
+`;

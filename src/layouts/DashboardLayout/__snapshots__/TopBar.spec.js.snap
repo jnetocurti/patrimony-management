@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/SearchInput should render correctly 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  className="makeStyles-root-1"
+  elevation={0}
+>
+  <WithStyles(ForwardRef(Toolbar))>
+    <Link
+      to="/"
+    >
+      <Logo />
+    </Link>
+    <Styled(MuiBox)
+      flexGrow={1}
+    />
+    <Hidden
+      mdDown={true}
+    >
+      <WithStyles(ForwardRef(IconButton))
+        color="primary"
+      >
+        <WithStyles(ForwardRef(Badge))
+          badgeContent={0}
+          color="default"
+          variant="dot"
+        >
+          <Memo(ForwardRef(NotificationsOutlinedIcon)) />
+        </WithStyles(ForwardRef(Badge))>
+      </WithStyles(ForwardRef(IconButton))>
+      <WithStyles(ForwardRef(IconButton))
+        color="primary"
+      >
+        <Memo(ForwardRef(InputIcon)) />
+      </WithStyles(ForwardRef(IconButton))>
+    </Hidden>
+    <Hidden
+      lgUp={true}
+    >
+      <WithStyles(ForwardRef(IconButton))
+        color="default"
+      >
+        <Memo(ForwardRef(MenuIcon)) />
+      </WithStyles(ForwardRef(IconButton))>
+    </Hidden>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;
