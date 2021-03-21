@@ -1,0 +1,16 @@
+[
+    {
+        "ticker": "HSML11",
+        "segment": "Shopping",
+        "quantity": 50,
+        "averagePrice": 100,
+        "totalAmount": 5000
+    },
+    {
+        "ticker": "XPML11",
+        "segment": "Shopping",
+        "quantity": 50,
+        "averagePrice": 100,
+        "totalAmount": 5000
+    }
+]

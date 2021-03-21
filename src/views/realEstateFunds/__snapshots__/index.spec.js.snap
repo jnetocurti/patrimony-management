@@ -1,0 +1,745 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/views/realEstateFunds/RealEstateFundsView should render correctly 1`] = `
+<ForwardRef
+  className="makeStyles-root-1"
+  title="Fundos Imobiliários"
+>
+  <WithStyles(ForwardRef(Container))
+    className="makeStyles-container-2"
+    maxWidth={false}
+  >
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(Card))>
+        <WithStyles(ForwardRef(CardContent))>
+          <Memo(SearchInput)
+            callback={[Function]}
+            placeholder="Pesquisar fundos imobiliários"
+            searchStatus={false}
+          />
+        </WithStyles(ForwardRef(CardContent))>
+      </WithStyles(ForwardRef(Card))>
+    </Styled(MuiBox)>
+    <Memo(Results)
+      data={Array []}
+    />
+  </WithStyles(ForwardRef(Container))>
+</ForwardRef>
+`;
+
+exports[`src/views/realEstateFunds/RealEstateFundsView should render correctly on search 1`] = `
+<RealEstateFundsView>
+  <ForwardRef
+    className="makeStyles-root-1"
+    title="Fundos Imobiliários"
+  >
+    <div
+      className="makeStyles-root-1"
+    >
+      <HelmetWrapper
+        defer={true}
+        encodeSpecialCharacters={true}
+      >
+        <SideEffect(NullComponent)
+          defer={true}
+          encodeSpecialCharacters={true}
+          title="Fundos Imobiliários"
+          titleAttributes={Object {}}
+        >
+          <NullComponent
+            defer={true}
+            encodeSpecialCharacters={true}
+            title="Fundos Imobiliários"
+            titleAttributes={Object {}}
+          />
+        </SideEffect(NullComponent)>
+      </HelmetWrapper>
+      <WithStyles(ForwardRef(Container))
+        className="makeStyles-container-2"
+        maxWidth={false}
+      >
+        <ForwardRef(Container)
+          className="makeStyles-container-2"
+          classes={
+            Object {
+              "disableGutters": "MuiContainer-disableGutters",
+              "fixed": "MuiContainer-fixed",
+              "maxWidthLg": "MuiContainer-maxWidthLg",
+              "maxWidthMd": "MuiContainer-maxWidthMd",
+              "maxWidthSm": "MuiContainer-maxWidthSm",
+              "maxWidthXl": "MuiContainer-maxWidthXl",
+              "maxWidthXs": "MuiContainer-maxWidthXs",
+              "root": "MuiContainer-root",
+            }
+          }
+          maxWidth={false}
+        >
+          <div
+            className="MuiContainer-root makeStyles-container-2"
+          >
+            <Styled(MuiBox)>
+              <div
+                className="MuiBox-root MuiBox-root-3"
+              >
+                <WithStyles(ForwardRef(Card))>
+                  <ForwardRef(Card)
+                    classes={
+                      Object {
+                        "root": "MuiCard-root",
+                      }
+                    }
+                  >
+                    <WithStyles(ForwardRef(Paper))
+                      className="MuiCard-root"
+                      elevation={1}
+                    >
+                      <ForwardRef(Paper)
+                        className="MuiCard-root"
+                        classes={
+                          Object {
+                            "elevation0": "MuiPaper-elevation0",
+                            "elevation1": "MuiPaper-elevation1",
+                            "elevation10": "MuiPaper-elevation10",
+                            "elevation11": "MuiPaper-elevation11",
+                            "elevation12": "MuiPaper-elevation12",
+                            "elevation13": "MuiPaper-elevation13",
+                            "elevation14": "MuiPaper-elevation14",
+                            "elevation15": "MuiPaper-elevation15",
+                            "elevation16": "MuiPaper-elevation16",
+                            "elevation17": "MuiPaper-elevation17",
+                            "elevation18": "MuiPaper-elevation18",
+                            "elevation19": "MuiPaper-elevation19",
+                            "elevation2": "MuiPaper-elevation2",
+                            "elevation20": "MuiPaper-elevation20",
+                            "elevation21": "MuiPaper-elevation21",
+                            "elevation22": "MuiPaper-elevation22",
+                            "elevation23": "MuiPaper-elevation23",
+                            "elevation24": "MuiPaper-elevation24",
+                            "elevation3": "MuiPaper-elevation3",
+                            "elevation4": "MuiPaper-elevation4",
+                            "elevation5": "MuiPaper-elevation5",
+                            "elevation6": "MuiPaper-elevation6",
+                            "elevation7": "MuiPaper-elevation7",
+                            "elevation8": "MuiPaper-elevation8",
+                            "elevation9": "MuiPaper-elevation9",
+                            "outlined": "MuiPaper-outlined",
+                            "root": "MuiPaper-root",
+                            "rounded": "MuiPaper-rounded",
+                          }
+                        }
+                        elevation={1}
+                      >
+                        <div
+                          className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+                        >
+                          <WithStyles(ForwardRef(CardContent))>
+                            <ForwardRef(CardContent)
+                              classes={
+                                Object {
+                                  "root": "MuiCardContent-root",
+                                }
+                              }
+                            >
+                              <div
+                                className="MuiCardContent-root"
+                              >
+                                <Memo(SearchInput)
+                                  callback={[Function]}
+                                  placeholder="Pesquisar fundos imobiliários"
+                                  searchStatus={true}
+                                >
+                                  <Styled(MuiBox)
+                                    maxWidth={500}
+                                  >
+                                    <div
+                                      className="MuiBox-root MuiBox-root-4"
+                                    >
+                                      <WithStyles(ForwardRef(TextField))
+                                        InputProps={
+                                          Object {
+                                            "startAdornment": <SearchInputProgress />,
+                                          }
+                                        }
+                                        fullWidth={true}
+                                        onChange={[Function]}
+                                        placeholder="Pesquisar fundos imobiliários"
+                                        variant="outlined"
+                                      >
+                                        <ForwardRef(TextField)
+                                          InputProps={
+                                            Object {
+                                              "startAdornment": <SearchInputProgress />,
+                                            }
+                                          }
+                                          classes={
+                                            Object {
+                                              "root": "MuiTextField-root",
+                                            }
+                                          }
+                                          fullWidth={true}
+                                          onChange={[Function]}
+                                          placeholder="Pesquisar fundos imobiliários"
+                                          variant="outlined"
+                                        >
+                                          <WithStyles(ForwardRef(FormControl))
+                                            className="MuiTextField-root"
+                                            color="primary"
+                                            disabled={false}
+                                            error={false}
+                                            fullWidth={true}
+                                            required={false}
+                                            variant="outlined"
+                                          >
+                                            <ForwardRef(FormControl)
+                                              className="MuiTextField-root"
+                                              classes={
+                                                Object {
+                                                  "fullWidth": "MuiFormControl-fullWidth",
+                                                  "marginDense": "MuiFormControl-marginDense",
+                                                  "marginNormal": "MuiFormControl-marginNormal",
+                                                  "root": "MuiFormControl-root",
+                                                }
+                                              }
+                                              color="primary"
+                                              disabled={false}
+                                              error={false}
+                                              fullWidth={true}
+                                              required={false}
+                                              variant="outlined"
+                                            >
+                                              <div
+                                                className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                                              >
+                                                <WithStyles(ForwardRef(OutlinedInput))
+                                                  autoFocus={false}
+                                                  fullWidth={true}
+                                                  multiline={false}
+                                                  onChange={[Function]}
+                                                  placeholder="Pesquisar fundos imobiliários"
+                                                  startAdornment={<SearchInputProgress />}
+                                                >
+                                                  <ForwardRef(OutlinedInput)
+                                                    autoFocus={false}
+                                                    classes={
+                                                      Object {
+                                                        "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                                                        "adornedStart": "MuiOutlinedInput-adornedStart",
+                                                        "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                                                        "disabled": "Mui-disabled",
+                                                        "error": "Mui-error",
+                                                        "focused": "Mui-focused",
+                                                        "input": "MuiOutlinedInput-input",
+                                                        "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                                                        "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                                                        "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                                                        "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                                                        "marginDense": "MuiOutlinedInput-marginDense",
+                                                        "multiline": "MuiOutlinedInput-multiline",
+                                                        "notchedOutline": "MuiOutlinedInput-notchedOutline",
+                                                        "root": "MuiOutlinedInput-root",
+                                                      }
+                                                    }
+                                                    fullWidth={true}
+                                                    multiline={false}
+                                                    onChange={[Function]}
+                                                    placeholder="Pesquisar fundos imobiliários"
+                                                    startAdornment={<SearchInputProgress />}
+                                                  >
+                                                    <WithStyles(ForwardRef(InputBase))
+                                                      autoFocus={false}
+                                                      classes={
+                                                        Object {
+                                                          "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                                                          "adornedStart": "MuiOutlinedInput-adornedStart",
+                                                          "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                                                          "disabled": "Mui-disabled",
+                                                          "error": "Mui-error",
+                                                          "focused": "Mui-focused",
+                                                          "input": "MuiOutlinedInput-input",
+                                                          "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                                                          "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                                                          "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                                                          "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                                                          "marginDense": "MuiOutlinedInput-marginDense",
+                                                          "multiline": "MuiOutlinedInput-multiline",
+                                                          "notchedOutline": null,
+                                                          "root": "MuiOutlinedInput-root",
+                                                        }
+                                                      }
+                                                      fullWidth={true}
+                                                      inputComponent="input"
+                                                      multiline={false}
+                                                      onChange={[Function]}
+                                                      placeholder="Pesquisar fundos imobiliários"
+                                                      renderSuffix={[Function]}
+                                                      startAdornment={<SearchInputProgress />}
+                                                      type="text"
+                                                    >
+                                                      <ForwardRef(InputBase)
+                                                        autoFocus={false}
+                                                        classes={
+                                                          Object {
+                                                            "adornedEnd": "MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd",
+                                                            "adornedStart": "MuiInputBase-adornedStart MuiOutlinedInput-adornedStart",
+                                                            "colorSecondary": "MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary",
+                                                            "disabled": "Mui-disabled Mui-disabled",
+                                                            "error": "Mui-error Mui-error",
+                                                            "focused": "Mui-focused Mui-focused",
+                                                            "formControl": "MuiInputBase-formControl",
+                                                            "fullWidth": "MuiInputBase-fullWidth",
+                                                            "input": "MuiInputBase-input MuiOutlinedInput-input",
+                                                            "inputAdornedEnd": "MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd",
+                                                            "inputAdornedStart": "MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart",
+                                                            "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                                            "inputMarginDense": "MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense",
+                                                            "inputMultiline": "MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline",
+                                                            "inputTypeSearch": "MuiInputBase-inputTypeSearch",
+                                                            "marginDense": "MuiInputBase-marginDense MuiOutlinedInput-marginDense",
+                                                            "multiline": "MuiInputBase-multiline MuiOutlinedInput-multiline",
+                                                            "root": "MuiInputBase-root MuiOutlinedInput-root",
+                                                          }
+                                                        }
+                                                        fullWidth={true}
+                                                        inputComponent="input"
+                                                        multiline={false}
+                                                        onChange={[Function]}
+                                                        placeholder="Pesquisar fundos imobiliários"
+                                                        renderSuffix={[Function]}
+                                                        startAdornment={<SearchInputProgress />}
+                                                        type="text"
+                                                      >
+                                                        <div
+                                                          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart"
+                                                          onClick={[Function]}
+                                                        >
+                                                          <SearchInputProgress>
+                                                            <WithStyles(ForwardRef(CircularProgress))
+                                                              className="makeStyles-progress-11"
+                                                              size="1.25rem"
+                                                            >
+                                                              <ForwardRef(CircularProgress)
+                                                                className="makeStyles-progress-11"
+                                                                classes={
+                                                                  Object {
+                                                                    "circle": "MuiCircularProgress-circle",
+                                                                    "circleDeterminate": "MuiCircularProgress-circleDeterminate",
+                                                                    "circleDisableShrink": "MuiCircularProgress-circleDisableShrink",
+                                                                    "circleIndeterminate": "MuiCircularProgress-circleIndeterminate",
+                                                                    "circleStatic": "MuiCircularProgress-circleStatic",
+                                                                    "colorPrimary": "MuiCircularProgress-colorPrimary",
+                                                                    "colorSecondary": "MuiCircularProgress-colorSecondary",
+                                                                    "determinate": "MuiCircularProgress-determinate",
+                                                                    "indeterminate": "MuiCircularProgress-indeterminate",
+                                                                    "root": "MuiCircularProgress-root",
+                                                                    "static": "MuiCircularProgress-static",
+                                                                    "svg": "MuiCircularProgress-svg",
+                                                                  }
+                                                                }
+                                                                size="1.25rem"
+                                                              >
+                                                                <div
+                                                                  className="MuiCircularProgress-root makeStyles-progress-11 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+                                                                  role="progressbar"
+                                                                  style={
+                                                                    Object {
+                                                                      "height": "1.25rem",
+                                                                      "width": "1.25rem",
+                                                                    }
+                                                                  }
+                                                                >
+                                                                  <svg
+                                                                    className="MuiCircularProgress-svg"
+                                                                    viewBox="22 22 44 44"
+                                                                  >
+                                                                    <circle
+                                                                      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                                                                      cx={44}
+                                                                      cy={44}
+                                                                      fill="none"
+                                                                      r={20.2}
+                                                                      strokeWidth={3.6}
+                                                                      style={Object {}}
+                                                                    />
+                                                                  </svg>
+                                                                </div>
+                                                              </ForwardRef(CircularProgress)>
+                                                            </WithStyles(ForwardRef(CircularProgress))>
+                                                          </SearchInputProgress>
+                                                          <input
+                                                            aria-invalid={false}
+                                                            autoFocus={false}
+                                                            className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart"
+                                                            disabled={false}
+                                                            onAnimationStart={[Function]}
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            onFocus={[Function]}
+                                                            placeholder="Pesquisar fundos imobiliários"
+                                                            required={false}
+                                                            type="text"
+                                                          />
+                                                          <WithStyles(ForwardRef(NotchedOutline))
+                                                            className="MuiOutlinedInput-notchedOutline"
+                                                            labelWidth={0}
+                                                            notched={true}
+                                                          >
+                                                            <ForwardRef(NotchedOutline)
+                                                              className="MuiOutlinedInput-notchedOutline"
+                                                              classes={
+                                                                Object {
+                                                                  "legend": "PrivateNotchedOutline-legend-6",
+                                                                  "legendLabelled": "PrivateNotchedOutline-legendLabelled-7",
+                                                                  "legendNotched": "PrivateNotchedOutline-legendNotched-8",
+                                                                  "root": "PrivateNotchedOutline-root-5",
+                                                                }
+                                                              }
+                                                              labelWidth={0}
+                                                              notched={true}
+                                                            >
+                                                              <fieldset
+                                                                aria-hidden={true}
+                                                                className="PrivateNotchedOutline-root-5 MuiOutlinedInput-notchedOutline"
+                                                                style={
+                                                                  Object {
+                                                                    "paddingLeft": 8,
+                                                                  }
+                                                                }
+                                                              >
+                                                                <legend
+                                                                  className="PrivateNotchedOutline-legend-6"
+                                                                  style={
+                                                                    Object {
+                                                                      "width": 0.01,
+                                                                    }
+                                                                  }
+                                                                >
+                                                                  <span
+                                                                    dangerouslySetInnerHTML={
+                                                                      Object {
+                                                                        "__html": "&#8203;",
+                                                                      }
+                                                                    }
+                                                                  />
+                                                                </legend>
+                                                              </fieldset>
+                                                            </ForwardRef(NotchedOutline)>
+                                                          </WithStyles(ForwardRef(NotchedOutline))>
+                                                        </div>
+                                                      </ForwardRef(InputBase)>
+                                                    </WithStyles(ForwardRef(InputBase))>
+                                                  </ForwardRef(OutlinedInput)>
+                                                </WithStyles(ForwardRef(OutlinedInput))>
+                                              </div>
+                                            </ForwardRef(FormControl)>
+                                          </WithStyles(ForwardRef(FormControl))>
+                                        </ForwardRef(TextField)>
+                                      </WithStyles(ForwardRef(TextField))>
+                                    </div>
+                                  </Styled(MuiBox)>
+                                </Memo(SearchInput)>
+                              </div>
+                            </ForwardRef(CardContent)>
+                          </WithStyles(ForwardRef(CardContent))>
+                        </div>
+                      </ForwardRef(Paper)>
+                    </WithStyles(ForwardRef(Paper))>
+                  </ForwardRef(Card)>
+                </WithStyles(ForwardRef(Card))>
+              </div>
+            </Styled(MuiBox)>
+            <Memo(Results)
+              data={Array []}
+            >
+              <Styled(MuiBox)
+                mt={1}
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-9"
+                >
+                  <WithStyles(ForwardRef(Card))>
+                    <ForwardRef(Card)
+                      classes={
+                        Object {
+                          "root": "MuiCard-root",
+                        }
+                      }
+                    >
+                      <WithStyles(ForwardRef(Paper))
+                        className="MuiCard-root"
+                        elevation={1}
+                      >
+                        <ForwardRef(Paper)
+                          className="MuiCard-root"
+                          classes={
+                            Object {
+                              "elevation0": "MuiPaper-elevation0",
+                              "elevation1": "MuiPaper-elevation1",
+                              "elevation10": "MuiPaper-elevation10",
+                              "elevation11": "MuiPaper-elevation11",
+                              "elevation12": "MuiPaper-elevation12",
+                              "elevation13": "MuiPaper-elevation13",
+                              "elevation14": "MuiPaper-elevation14",
+                              "elevation15": "MuiPaper-elevation15",
+                              "elevation16": "MuiPaper-elevation16",
+                              "elevation17": "MuiPaper-elevation17",
+                              "elevation18": "MuiPaper-elevation18",
+                              "elevation19": "MuiPaper-elevation19",
+                              "elevation2": "MuiPaper-elevation2",
+                              "elevation20": "MuiPaper-elevation20",
+                              "elevation21": "MuiPaper-elevation21",
+                              "elevation22": "MuiPaper-elevation22",
+                              "elevation23": "MuiPaper-elevation23",
+                              "elevation24": "MuiPaper-elevation24",
+                              "elevation3": "MuiPaper-elevation3",
+                              "elevation4": "MuiPaper-elevation4",
+                              "elevation5": "MuiPaper-elevation5",
+                              "elevation6": "MuiPaper-elevation6",
+                              "elevation7": "MuiPaper-elevation7",
+                              "elevation8": "MuiPaper-elevation8",
+                              "elevation9": "MuiPaper-elevation9",
+                              "outlined": "MuiPaper-outlined",
+                              "root": "MuiPaper-root",
+                              "rounded": "MuiPaper-rounded",
+                            }
+                          }
+                          elevation={1}
+                        >
+                          <div
+                            className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+                          >
+                            <ScrollBar
+                              className=""
+                              component="div"
+                              containerRef={[Function]}
+                              onSync={[Function]}
+                            >
+                              <div>
+                                <Styled(MuiBox)
+                                  minWidth={1050}
+                                >
+                                  <div
+                                    className="MuiBox-root MuiBox-root-10"
+                                  >
+                                    <WithStyles(ForwardRef(Table))>
+                                      <ForwardRef(Table)
+                                        classes={
+                                          Object {
+                                            "root": "MuiTable-root",
+                                            "stickyHeader": "MuiTable-stickyHeader",
+                                          }
+                                        }
+                                      >
+                                        <table
+                                          className="MuiTable-root"
+                                          role={null}
+                                        >
+                                          <WithStyles(ForwardRef(TableHead))>
+                                            <ForwardRef(TableHead)
+                                              classes={
+                                                Object {
+                                                  "root": "MuiTableHead-root",
+                                                }
+                                              }
+                                            >
+                                              <thead
+                                                className="MuiTableHead-root"
+                                                role={null}
+                                              >
+                                                <WithStyles(ForwardRef(TableRow))>
+                                                  <ForwardRef(TableRow)
+                                                    classes={
+                                                      Object {
+                                                        "footer": "MuiTableRow-footer",
+                                                        "head": "MuiTableRow-head",
+                                                        "hover": "MuiTableRow-hover",
+                                                        "root": "MuiTableRow-root",
+                                                        "selected": "Mui-selected",
+                                                      }
+                                                    }
+                                                  >
+                                                    <tr
+                                                      className="MuiTableRow-root MuiTableRow-head"
+                                                      role={null}
+                                                    >
+                                                      <WithStyles(ForwardRef(TableCell))>
+                                                        <ForwardRef(TableCell)
+                                                          classes={
+                                                            Object {
+                                                              "alignCenter": "MuiTableCell-alignCenter",
+                                                              "alignJustify": "MuiTableCell-alignJustify",
+                                                              "alignLeft": "MuiTableCell-alignLeft",
+                                                              "alignRight": "MuiTableCell-alignRight",
+                                                              "body": "MuiTableCell-body",
+                                                              "footer": "MuiTableCell-footer",
+                                                              "head": "MuiTableCell-head",
+                                                              "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                                                              "paddingNone": "MuiTableCell-paddingNone",
+                                                              "root": "MuiTableCell-root",
+                                                              "sizeSmall": "MuiTableCell-sizeSmall",
+                                                              "stickyHeader": "MuiTableCell-stickyHeader",
+                                                            }
+                                                          }
+                                                        >
+                                                          <th
+                                                            aria-sort={null}
+                                                            className="MuiTableCell-root MuiTableCell-head"
+                                                            scope="col"
+                                                          >
+                                                            Ticker
+                                                          </th>
+                                                        </ForwardRef(TableCell)>
+                                                      </WithStyles(ForwardRef(TableCell))>
+                                                      <WithStyles(ForwardRef(TableCell))>
+                                                        <ForwardRef(TableCell)
+                                                          classes={
+                                                            Object {
+                                                              "alignCenter": "MuiTableCell-alignCenter",
+                                                              "alignJustify": "MuiTableCell-alignJustify",
+                                                              "alignLeft": "MuiTableCell-alignLeft",
+                                                              "alignRight": "MuiTableCell-alignRight",
+                                                              "body": "MuiTableCell-body",
+                                                              "footer": "MuiTableCell-footer",
+                                                              "head": "MuiTableCell-head",
+                                                              "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                                                              "paddingNone": "MuiTableCell-paddingNone",
+                                                              "root": "MuiTableCell-root",
+                                                              "sizeSmall": "MuiTableCell-sizeSmall",
+                                                              "stickyHeader": "MuiTableCell-stickyHeader",
+                                                            }
+                                                          }
+                                                        >
+                                                          <th
+                                                            aria-sort={null}
+                                                            className="MuiTableCell-root MuiTableCell-head"
+                                                            scope="col"
+                                                          >
+                                                            Segmento
+                                                          </th>
+                                                        </ForwardRef(TableCell)>
+                                                      </WithStyles(ForwardRef(TableCell))>
+                                                      <WithStyles(ForwardRef(TableCell))>
+                                                        <ForwardRef(TableCell)
+                                                          classes={
+                                                            Object {
+                                                              "alignCenter": "MuiTableCell-alignCenter",
+                                                              "alignJustify": "MuiTableCell-alignJustify",
+                                                              "alignLeft": "MuiTableCell-alignLeft",
+                                                              "alignRight": "MuiTableCell-alignRight",
+                                                              "body": "MuiTableCell-body",
+                                                              "footer": "MuiTableCell-footer",
+                                                              "head": "MuiTableCell-head",
+                                                              "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                                                              "paddingNone": "MuiTableCell-paddingNone",
+                                                              "root": "MuiTableCell-root",
+                                                              "sizeSmall": "MuiTableCell-sizeSmall",
+                                                              "stickyHeader": "MuiTableCell-stickyHeader",
+                                                            }
+                                                          }
+                                                        >
+                                                          <th
+                                                            aria-sort={null}
+                                                            className="MuiTableCell-root MuiTableCell-head"
+                                                            scope="col"
+                                                          >
+                                                            Qtd
+                                                          </th>
+                                                        </ForwardRef(TableCell)>
+                                                      </WithStyles(ForwardRef(TableCell))>
+                                                      <WithStyles(ForwardRef(TableCell))>
+                                                        <ForwardRef(TableCell)
+                                                          classes={
+                                                            Object {
+                                                              "alignCenter": "MuiTableCell-alignCenter",
+                                                              "alignJustify": "MuiTableCell-alignJustify",
+                                                              "alignLeft": "MuiTableCell-alignLeft",
+                                                              "alignRight": "MuiTableCell-alignRight",
+                                                              "body": "MuiTableCell-body",
+                                                              "footer": "MuiTableCell-footer",
+                                                              "head": "MuiTableCell-head",
+                                                              "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                                                              "paddingNone": "MuiTableCell-paddingNone",
+                                                              "root": "MuiTableCell-root",
+                                                              "sizeSmall": "MuiTableCell-sizeSmall",
+                                                              "stickyHeader": "MuiTableCell-stickyHeader",
+                                                            }
+                                                          }
+                                                        >
+                                                          <th
+                                                            aria-sort={null}
+                                                            className="MuiTableCell-root MuiTableCell-head"
+                                                            scope="col"
+                                                          >
+                                                            Preço médio
+                                                          </th>
+                                                        </ForwardRef(TableCell)>
+                                                      </WithStyles(ForwardRef(TableCell))>
+                                                      <WithStyles(ForwardRef(TableCell))>
+                                                        <ForwardRef(TableCell)
+                                                          classes={
+                                                            Object {
+                                                              "alignCenter": "MuiTableCell-alignCenter",
+                                                              "alignJustify": "MuiTableCell-alignJustify",
+                                                              "alignLeft": "MuiTableCell-alignLeft",
+                                                              "alignRight": "MuiTableCell-alignRight",
+                                                              "body": "MuiTableCell-body",
+                                                              "footer": "MuiTableCell-footer",
+                                                              "head": "MuiTableCell-head",
+                                                              "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                                                              "paddingNone": "MuiTableCell-paddingNone",
+                                                              "root": "MuiTableCell-root",
+                                                              "sizeSmall": "MuiTableCell-sizeSmall",
+                                                              "stickyHeader": "MuiTableCell-stickyHeader",
+                                                            }
+                                                          }
+                                                        >
+                                                          <th
+                                                            aria-sort={null}
+                                                            className="MuiTableCell-root MuiTableCell-head"
+                                                            scope="col"
+                                                          >
+                                                            Valor total
+                                                          </th>
+                                                        </ForwardRef(TableCell)>
+                                                      </WithStyles(ForwardRef(TableCell))>
+                                                    </tr>
+                                                  </ForwardRef(TableRow)>
+                                                </WithStyles(ForwardRef(TableRow))>
+                                              </thead>
+                                            </ForwardRef(TableHead)>
+                                          </WithStyles(ForwardRef(TableHead))>
+                                          <WithStyles(ForwardRef(TableBody))>
+                                            <ForwardRef(TableBody)
+                                              classes={
+                                                Object {
+                                                  "root": "MuiTableBody-root",
+                                                }
+                                              }
+                                            >
+                                              <tbody
+                                                className="MuiTableBody-root"
+                                                role={null}
+                                              />
+                                            </ForwardRef(TableBody)>
+                                          </WithStyles(ForwardRef(TableBody))>
+                                        </table>
+                                      </ForwardRef(Table)>
+                                    </WithStyles(ForwardRef(Table))>
+                                  </div>
+                                </Styled(MuiBox)>
+                              </div>
+                            </ScrollBar>
+                          </div>
+                        </ForwardRef(Paper)>
+                      </WithStyles(ForwardRef(Paper))>
+                    </ForwardRef(Card)>
+                  </WithStyles(ForwardRef(Card))>
+                </div>
+              </Styled(MuiBox)>
+            </Memo(Results)>
+          </div>
+        </ForwardRef(Container)>
+      </WithStyles(ForwardRef(Container))>
+    </div>
+  </ForwardRef>
+</RealEstateFundsView>
+`;
