@@ -3,8 +3,8 @@
   "name": "HSI MALLS FUND",
   "document": "33.456.678/0001-45",
   "manager": "HSI GESTÃO",
-  "segment": 1,
-  "mandate": 1,
+  "segment": { "id": 1, "descrition": "SHOPPINGS" },
+  "mandate": { "id": 1, "descrition": "RENDA" },
   "administrator": "SANTANDER CACEIS",
   "administratorDocument": "45.567.987/0001-23"
 }

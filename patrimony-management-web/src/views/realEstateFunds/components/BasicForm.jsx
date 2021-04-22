@@ -82,13 +82,13 @@ const BasicForm = memo(({ realEstateFund, dispatch }) => {
                 helperText={touched.segment && errors.segment}
                 error={Boolean(touched.segment && errors.segment)}
               >
-                <MenuItem key={1} value={1}>
+                <MenuItem key={1} value="SHOPPINGS">
                   SHOPPINGS
                 </MenuItem>
-                <MenuItem key={2} value={2}>
+                <MenuItem key={2} value="LOGISTICA">
                   LOGISTICA
                 </MenuItem>
-                <MenuItem key={3} value={3}>
+                <MenuItem key={3} value="LAGES CORPORATIVAS">
                   LAGES CORPORATIVAS
                 </MenuItem>
               </FormTextField>
@@ -103,10 +103,10 @@ const BasicForm = memo(({ realEstateFund, dispatch }) => {
                 helperText={touched.mandate && errors.mandate}
                 error={Boolean(touched.mandate && errors.mandate)}
               >
-                <MenuItem key={1} value={1}>
+                <MenuItem key={1} value="RENDA">
                   RENDA
                 </MenuItem>
-                <MenuItem key={2} value={2}>
+                <MenuItem key={2} value="DESENVOLVIMENTO">
                   DESENVOLVIMENTO
                 </MenuItem>
               </FormTextField>

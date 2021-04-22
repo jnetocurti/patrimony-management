@@ -2,9 +2,6 @@ import { useCallback } from 'react';
 
 import api from 'src/api/realEstateFunds';
 
-// TODO - Refatorar
-const TIME = 900;
-
 const useRealEstateFundsController = (dispatch) => {
   const navigate = useCallback((newView) => {
     dispatch({ type: 'navigate', payload: newView });
@@ -19,15 +16,15 @@ const useRealEstateFundsController = (dispatch) => {
   const getOne = useCallback((ticker) => {
     dispatch({ type: 'setGlobalLoading' });
     api
-      .getOne({ params: { ticker } })
-      .then((res) => setTimeout(() => dispatch({ type: 'getOne', payload: res.data }), TIME))
+      .getOne(ticker)
+      .then((res) => dispatch({ type: 'getOne', payload: res.data }))
       .catch((error) => dispatch({ type: 'getOneError', payload: error }));
   }, []);
 
   const getAll = useCallback((searchTerm) => {
     api
       .getAll({ params: { searchTerm } })
-      .then((res) => setTimeout(() => dispatch({ type: 'getAll', payload: res.data }), TIME))
+      .then((res) => dispatch({ type: 'getAll', payload: res.data }))
       .catch((error) => dispatch({ type: 'getAllError', payload: error }));
   }, []);
 
@@ -35,16 +32,16 @@ const useRealEstateFundsController = (dispatch) => {
     dispatch({ type: 'setGlobalLoading' });
     api
       .exclude({ params: { ticker } })
-      .then((res) => setTimeout(() => dispatch({ type: 'exclude', payload: res.data }), TIME))
-      .catch((error) => setTimeout(() => dispatch({ type: 'excludeError', payload: error }), TIME));
+      .then((res) => dispatch({ type: 'exclude', payload: res.data }))
+      .catch((error) => dispatch({ type: 'excludeError', payload: error }));
   }, []);
 
-  const save = useCallback((ticker) => {
+  const save = useCallback((payload) => {
     dispatch({ type: 'setGlobalLoading' });
     api
-      .exclude({ params: { ticker } })
-      .then((res) => setTimeout(() => dispatch({ type: 'save', payload: res.data }), TIME))
-      .catch((error) => setTimeout(() => dispatch({ type: 'saveError', payload: error }), TIME));
+      .save(payload.ticker, payload)
+      .then((res) => dispatch({ type: 'save', payload: res.data }))
+      .catch((error) => dispatch({ type: 'saveError', payload: error }));
   }, []);
 
   return {

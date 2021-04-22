@@ -61,10 +61,13 @@ export const excludeError = (state) => {
 };
 
 export const save = (state) => {
-  setGlobalLoading(state, false);
+  console.log('save');
+  state.globalLoading = false;
+  // setGlobalLoading(state, false);
 };
 
 export const saveError = (state) => {
+  console.log('save error');
   setGlobalLoading(state, false);
 };
 
@@ -78,5 +81,7 @@ export default {
   getOne,
   getOneError,
   exclude,
-  excludeError
+  excludeError,
+  save,
+  saveError
 };

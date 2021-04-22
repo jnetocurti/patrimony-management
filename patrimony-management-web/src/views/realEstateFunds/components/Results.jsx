@@ -41,7 +41,7 @@ const Results = memo(({ realEstateFunds, dispatch }) => {
                     <DeleteIconButton onConfirm={() => exclude(f.ticker)} />
                   </TableCell>
                   <TableCell>{f.ticker}</TableCell>
-                  <TableCell>{f.segment}</TableCell>
+                  <TableCell>{f.segment.description}</TableCell>
                   <TableCell>{f.quantity}</TableCell>
                   <TableCell>{f.averagePrice}</TableCell>
                   <TableCell>{f.totalAmount}</TableCell>
