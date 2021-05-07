@@ -1,3 +1,4 @@
+import {inject, service} from '@loopback/core';
 import {
   Count,
   CountSchema,
@@ -7,24 +8,53 @@ import {
   Where,
 } from '@loopback/repository';
 import {
-  post,
-  param,
+  del,
   get,
   getModelSchemaRef,
+  param,
   patch,
+  post,
   put,
-  del,
+  Request,
   requestBody,
+  Response,
   response,
+  RestBindings,
 } from '@loopback/rest';
+import {FILE_UPLOAD_SERVICE} from '../keys';
 import {RealEstateFund} from '../models';
 import {RealEstateFundRepository} from '../repositories';
+import {RealEstateFundService} from '../services';
+import {FileUploadHandler} from '../types';
 
 export class RealEstateFundController {
   constructor(
     @repository(RealEstateFundRepository)
-    public realEstateFundRepository : RealEstateFundRepository,
+    public realEstateFundRepository: RealEstateFundRepository,
+    @service(RealEstateFundService)
+    public realEstateFundService: RealEstateFundService,
+    @inject(FILE_UPLOAD_SERVICE) private handler: FileUploadHandler,
   ) {}
+
+  @post('/real-estate-funds/import')
+  @response(200, {
+    description: 'RealEstateFund model instance',
+    content: {'application/json': {schema: 'object'}},
+  })
+  async import(
+    @requestBody.file()
+    req: Request,
+    @inject(RestBindings.Http.RESPONSE) res: Response,
+  ): Promise<object> {
+    return new Promise<object>((resolve, reject) => {
+      this.handler(req, res, (err: unknown) => {
+        if (err) reject(err);
+        else {
+          resolve(this.realEstateFundService.import(req));
+        }
+      });
+    });
+  }
 
   @post('/real-estate-funds')
   @response(200, {
@@ -37,7 +67,6 @@ export class RealEstateFundController {
         'application/json': {
           schema: getModelSchemaRef(RealEstateFund, {
             title: 'NewRealEstateFund',
-            
           }),
         },
       },
@@ -106,7 +135,8 @@ export class RealEstateFundController {
   })
   async findById(
     @param.path.string('id') id: string,
-    @param.filter(RealEstateFund, {exclude: 'where'}) filter?: FilterExcludingWhere<RealEstateFund>
+    @param.filter(RealEstateFund, {exclude: 'where'})
+    filter?: FilterExcludingWhere<RealEstateFund>,
   ): Promise<RealEstateFund> {
     return this.realEstateFundRepository.findById(id, filter);
   }

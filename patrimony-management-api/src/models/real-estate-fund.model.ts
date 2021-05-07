@@ -8,49 +8,97 @@ export class RealEstateFund extends Entity {
     generated: false,
     required: true,
   })
-  ticker: string;
+  code: string;
 
   @property({
     type: 'string',
-    required: true,
   })
-  name: string;
+  sector: string;
 
   @property({
-    type: 'string',
-    required: true,
+    type: 'number',
   })
-  document: string;
+  currentPrice?: number;
 
   @property({
-    type: 'string',
-    required: true,
+    type: 'number',
   })
-  manager: string;
+  dailyLiquidity?: number;
 
   @property({
-    type: 'string',
-    required: true,
+    type: 'number',
   })
-  segment: string;
+  dividend?: number;
 
   @property({
-    type: 'string',
-    required: true,
+    type: 'number',
   })
-  mandate: string;
+  dividendYield?: number;
 
   @property({
-    type: 'string',
-    required: true,
+    type: 'number',
   })
-  administrator: string;
+  dividendYieldThreeMonthsAccumulated?: number;
 
   @property({
-    type: 'string',
-    required: true,
+    type: 'number',
   })
-  administratorDocument: string;
+  dividendYieldSixMonthsAccumulated?: number;
+
+  @property({
+    type: 'number',
+  })
+  dividendYieldTwelveMonthsAccumulated?: number;
+
+  @property({
+    type: 'number',
+  })
+  dividendYieldThreeMonthsAverage?: number;
+
+  @property({
+    type: 'number',
+  })
+  dividendYieldSixMonthsAverage?: number;
+
+  @property({
+    type: 'number',
+  })
+  dividendYieldTwelveMonthsAverage?: number;
+
+  @property({
+    type: 'number',
+  })
+  liquidPatrimony?: number;
+
+  @property({
+    type: 'number',
+  })
+  patrimonyValue?: number;
+
+  @property({
+    type: 'number',
+  })
+  patrimonyValueByPrice?: number;
+
+  @property({
+    type: 'number',
+  })
+  dividendYieldPatrimonyValue?: number;
+
+  @property({
+    type: 'number',
+  })
+  physicalVacancy?: number;
+
+  @property({
+    type: 'number',
+  })
+  financialVacancy?: number;
+
+  @property({
+    type: 'number',
+  })
+  activeQuantity?: number;
 
   // Define well-known properties here
 

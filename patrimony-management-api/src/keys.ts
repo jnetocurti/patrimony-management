@@ -1,0 +1,6 @@
+import {BindingKey} from '@loopback/core';
+import {FileUploadHandler} from './types';
+
+export const FILE_UPLOAD_SERVICE = BindingKey.create<FileUploadHandler>(
+  'services.FileUpload',
+);
